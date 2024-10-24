@@ -1,7 +1,7 @@
 import { FaUser, FaLock } from "react-icons/fa"
 import { useState } from "react";
-import './index.css';
-import './App.css'
+import "./index.css";
+import "../../App.css";
 
 
 
@@ -18,19 +18,23 @@ const Login = () => {
 
   return (
 
-    <div className="container">
+    <div id="container" className="flex justify-center items-center min-h-screen bg-gray-700 w-full border">
         <form onSubmit={handleSubmit}>
-            <h1 className="bg-blue-600">Acesse o Sistema</h1>
-            <div>
-                <input 
+            <div className="border border-black rounded w-[360px] h-[360px] bg-zinc-900">
+                <div className="mt-20">
+            <h1 className="pb-5 text-xl">Acesse o Sistema</h1>
+            <div className="">
+                <input
+                className="rounded"
                 type="email" 
                 placeholder="E-mail"
                 required
                 onChange={(e) => setUsername(e.target.value)}  />
                 <FaUser className="icon" />
             </div>
-            <div>
-                <input 
+            <div className="">
+                <input
+                className="rounded bg-" 
                 type="password" 
                 placeholder="Senha"
                 required
@@ -38,7 +42,7 @@ const Login = () => {
                 <FaLock className="icon" />
             </div>
 
-            <div className="recall-forget">
+            <div id="recall-forget" className="">
                 <label htmlFor="">
                     <input 
                     type="checkbox" />
@@ -48,6 +52,8 @@ const Login = () => {
             </div>
 
             <button>Entrar</button>
+                </div>
+            </div>
         </form>
     </div>
   )

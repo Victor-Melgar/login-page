@@ -5,7 +5,11 @@ export default {
     "./src/components/Login/Login.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'fundo': "url('/assets/bg.webp')"
+      },
+    },
   },
   plugins: [],
 }
