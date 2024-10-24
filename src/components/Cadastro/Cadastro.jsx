@@ -1,7 +1,9 @@
 
 const Cadastro = () => {
   return (
-    <div>Cadastro</div>
+    <div>
+      
+    </div>
   )
 }
 
