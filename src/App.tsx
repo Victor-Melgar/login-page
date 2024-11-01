@@ -1,10 +1,10 @@
-<link href="./output.css" rel="stylesheet"></link>
+import './index.css';
 
 function App() {
 
   return (
     <>
-      <div className="flex justify-center items-center text-blue-600">Hello word!</div>
+      <div className="flex justify-center items-center bg-blue-700">Hello word!</div>
     </>
   )
 }
