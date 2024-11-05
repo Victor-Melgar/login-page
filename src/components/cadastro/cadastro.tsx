@@ -1,4 +1,4 @@
-import './index.css';
+import './cadastro.css';
 
 const cadastro = () => {
   return (
@@ -10,7 +10,7 @@ const cadastro = () => {
         </div>
             
         <div>
-          <label className="text-white">Nome completo</label>
+          <label className="text-white pl-2">Nome completo</label>
           <input 
           type="text"
           id="nome"
