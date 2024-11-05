@@ -4,7 +4,7 @@ const cadastro = () => {
   return (
     <div className="bg-gray-700 min-h-screen flex justify-center items-center">
       <form>
-        <div className="border rounded ">
+        <div className="border rounded">
         <div className="pl-5">
           <h1 className="text-white text-3xl font-bold uppercase pb-5">Crie a sua conta</h1>
         </div>
