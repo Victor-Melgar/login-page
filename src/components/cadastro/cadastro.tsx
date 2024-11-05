@@ -14,7 +14,7 @@ const cadastro = () => {
           <input 
           type="text"
           id="nome"
-          className="rounded p-1.5 w-[90%] bg-"
+          className="rounded p-1.5 w-[90%]"
           placeholder="Nome completo"
           />
         </div>
