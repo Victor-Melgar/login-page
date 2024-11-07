@@ -1,4 +1,4 @@
-import './';
+import './index.css';
 
 function App() {
 
